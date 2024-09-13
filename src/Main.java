@@ -17,7 +17,6 @@ public class Main {
         fallMaintenanceCost = scan.nextDouble();
         System.out.println("Enter the cost of maintenance during winter.");
         winterMaintenanceCost = scan.nextDouble();
-
         totalMaintenanceCost = springMaintenanceCost + summerMaintenanceCost + fallMaintenanceCost + winterMaintenanceCost;
         System.out.println("The total cost of yearly maintenance is $" + totalMaintenanceCost + ".");
     }
